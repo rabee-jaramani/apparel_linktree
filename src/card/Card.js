@@ -5,7 +5,7 @@ import linkedin from '../images/linkedin.png';
 import careers from '../images/careers.png';
 import app_store from '../images/app_store.png';
 import google_play from '../images/google_play.png';
-import ca_logo from '../images/ca_logo.png';
+// import ca_logo from '../images/ca_logo.png';
 import ag_logo from '../images/ag_logo.png';
 export default function Card() {
   return (
@@ -18,19 +18,19 @@ export default function Card() {
           <div className="icon">
             <img alt="icon" src={ag_website_icon} />
           </div>
-          <div className="text">Website </div>
+          <div className="text">Apparel Group Website </div>
         </div>
         <div className="card-item">
           <div className="icon">
             <img alt="icon" src={instagram} />
           </div>
-          <div className="text">Instagram </div>
+          <div className="text">Apparel Group Instagram </div>
         </div>
         <div className="card-item">
           <div className="icon">
             <img alt="icon" src={linkedin} />
           </div>
-          <div className="text">Linkedin</div>
+          <div className="text">Apparel Group Linkedin</div>
         </div>
         <div className="card-item">
           <div className="icon">
@@ -38,39 +38,39 @@ export default function Card() {
           </div>
           <div className="text">Careers</div>
         </div>
-        <div className="card-item parent-item">
+        {/* <div className="card-item parent-item">
           <div className="icon">
             <img alt="icon" src={ca_logo} />
           </div>
           <div className="text">Club Apparel</div>
-        </div>
+        </div> */}
 
-        <div className="card-item child">
+        <div className="card-item">
           <div className="icon">
             <img alt="icon" src={instagram} />
           </div>
           <div className="text">Club Apparel Instagram</div>
         </div>
 
-        <div className="card-item child">
+        <div className="card-item">
           <div className="icon">
             <img alt="icon" src={google_play} />
           </div>
-          <div className="text">Download on google play</div>
+          <div className="text">Download on Android</div>
         </div>
 
-        <div className="card-item child">
+        <div className="card-item">
           <div className="icon">
             <img alt="icon" src={app_store} />
           </div>
-          <div className="text">Download on google play</div>
+          <div className="text">Download on IOS</div>
         </div>
 
         <div className="card-item">
           <div className="icon">
             <img alt="icon" src={instagram} />
           </div>
-          <div className="text">Founder Mrs. Sima</div>
+          <div className="text">Meet our founder Mrs. Sima Ved</div>
         </div>
       </div>
     </div>
