@@ -14,64 +14,98 @@ export default function Card() {
         <img alt="icon" src={ag_logo} />
       </div>
       <div className="items-container">
-        <div className="card-item">
-          <div className="icon">
-            <img alt="icon" src={ag_website_icon} />
+        <a target="_blank" href="https://www.appareluae.com/" rel="noreferrer">
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={ag_website_icon} />
+            </div>
+            <div className="text">Apparel Group Website </div>
           </div>
-          <div className="text">Apparel Group Website </div>
-        </div>
-        <div className="card-item">
-          <div className="icon">
-            <img alt="icon" src={instagram} />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/apparelgroupofficial/"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={instagram} />
+            </div>
+            <div className="text">Apparel Group Instagram </div>
           </div>
-          <div className="text">Apparel Group Instagram </div>
-        </div>
-        <div className="card-item">
-          <div className="icon">
-            <img alt="icon" src={linkedin} />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/company/apparel-fzco/"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={linkedin} />
+            </div>
+            <div className="text">Apparel Group Linkedin</div>
           </div>
-          <div className="text">Apparel Group Linkedin</div>
-        </div>
-        <div className="card-item">
-          <div className="icon">
-            <img alt="icon" src={careers} />
+        </a>
+        <a
+          target="_blank"
+          href="https://ediu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={careers} />
+            </div>
+            <div className="text">Careers</div>
           </div>
-          <div className="text">Careers</div>
-        </div>
-        {/* <div className="card-item parent-item">
-          <div className="icon">
-            <img alt="icon" src={ca_logo} />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/clubapparel/"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={instagram} />
+            </div>
+            <div className="text">Club Apparel Instagram</div>
           </div>
-          <div className="text">Club Apparel</div>
-        </div> */}
-
-        <div className="card-item">
-          <div className="icon">
-            <img alt="icon" src={instagram} />
+        </a>
+        <a
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=com.appemirates.clubapparel&hl=en"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={google_play} />
+            </div>
+            <div className="text">Download on Android</div>
           </div>
-          <div className="text">Club Apparel Instagram</div>
-        </div>
-
-        <div className="card-item">
-          <div className="icon">
-            <img alt="icon" src={google_play} />
+        </a>
+        <a
+          target="_blank"
+          href="https://apps.apple.com/ae/app/club-apparel/id936671343"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={app_store} />
+            </div>
+            <div className="text">Download on IOS</div>
           </div>
-          <div className="text">Download on Android</div>
-        </div>
-
-        <div className="card-item">
-          <div className="icon">
-            <img alt="icon" src={app_store} />
+        </a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/thesimaved/"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={instagram} />
+            </div>
+            <div className="text">Meet our founder Mrs. Sima Ved</div>
           </div>
-          <div className="text">Download on IOS</div>
-        </div>
-
-        <div className="card-item">
-          <div className="icon">
-            <img alt="icon" src={instagram} />
-          </div>
-          <div className="text">Meet our founder Mrs. Sima Ved</div>
-        </div>
+        </a>
       </div>
     </div>
   );
