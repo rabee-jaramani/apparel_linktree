@@ -18,19 +18,19 @@ export default function Card() {
           <div className="icon">
             <img alt="icon" src={ag_website_icon} />
           </div>
-          <div className="text">corporate website </div>
+          <div className="text">Website </div>
         </div>
         <div className="card-item">
           <div className="icon">
             <img alt="icon" src={instagram} />
           </div>
-          <div className="text">corporate Instagram </div>
+          <div className="text">Instagram </div>
         </div>
         <div className="card-item">
           <div className="icon">
             <img alt="icon" src={linkedin} />
           </div>
-          <div className="text">corporate Linkedin</div>
+          <div className="text">Linkedin</div>
         </div>
         <div className="card-item">
           <div className="icon">
