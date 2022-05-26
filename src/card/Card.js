@@ -5,6 +5,7 @@ import linkedin from '../images/linkedin.png';
 import careers from '../images/careers.png';
 import app_store from '../images/app_store.png';
 import google_play from '../images/google_play.png';
+import food from '../images/food.png';
 // import ca_logo from '../images/ca_logo.png';
 import ag_logo from '../images/ag_logo.png';
 export default function Card() {
@@ -104,6 +105,33 @@ export default function Card() {
               <img alt="icon" src={instagram} />
             </div>
             <div className="text">Meet our founder Mrs. Sima Ved</div>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/groups/1387601065071155/"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={food} />
+            </div>
+            <div className="text">Pasta Lovers Community Page</div>
+          </div>
+        </a>
+
+        <a
+          target="_blank"
+          href="https://events.apparelgroupapps.com/pasta-lovers/"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={ag_website_icon} />
+            </div>
+            <div className="text">
+              Register to meet Jameie Oliver at Dubai Mall{' '}
+            </div>
           </div>
         </a>
       </div>
