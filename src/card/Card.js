@@ -130,7 +130,7 @@ export default function Card() {
               <img alt="icon" src={ag_website_icon} />
             </div>
             <div className="text">
-              Register to meet Jameie Oliver at Dubai Mall{' '}
+              Register to meet Jamie Oliver at Dubai Mall{' '}
             </div>
           </div>
         </a>
