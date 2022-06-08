@@ -120,7 +120,7 @@ export default function Card() {
           </div>
         </a>
 
-        <a
+        {/* <a
           target="_blank"
           href="https://events.apparelgroupapps.com/pasta-lovers/"
           rel="noreferrer"
@@ -133,7 +133,7 @@ export default function Card() {
               Register to meet Jamie Oliver at Dubai Mall{' '}
             </div>
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );
