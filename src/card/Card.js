@@ -120,9 +120,9 @@ export default function Card() {
           </div>
         </a>
 
-        {/* <a
+        <a
           target="_blank"
-          href="https://events.apparelgroupapps.com/pasta-lovers/"
+          href="https://fridaymagazine.ae/life-culture/people-profiles/dad-diaries-uae-based-fathers-talk-of-parenting-challenges-1.2315507"
           rel="noreferrer"
         >
           <div className="card-item">
@@ -130,10 +130,10 @@ export default function Card() {
               <img alt="icon" src={ag_website_icon} />
             </div>
             <div className="text">
-              Register to meet Jamie Oliver at Dubai Mall{' '}
+              LC Waikiki x Friday Magazine Father's Day Special
             </div>
           </div>
-        </a> */}
+        </a>
       </div>
     </div>
   );
