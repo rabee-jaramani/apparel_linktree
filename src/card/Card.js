@@ -6,6 +6,7 @@ import careers from '../images/careers.png';
 import app_store from '../images/app_store.png';
 import google_play from '../images/google_play.png';
 import food from '../images/food.png';
+import f5 from '../images/f5.png';
 // import ca_logo from '../images/ca_logo.png';
 import ag_logo from '../images/ag_logo.png';
 export default function Card() {
@@ -109,6 +110,20 @@ export default function Card() {
         </a>
         <a
           target="_blank"
+          href="https://www.thenationalnews.com/lifestyle/fashion/2022/08/13/the-16-year-old-behind-f5-the-sustainable-athleisure-brand-in-dubai-thats-going-places/?outputType=amp"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={f5} />
+            </div>
+            <div className="text">
+            Interview with Sarisha Ved, F5 Founder
+            </div>
+          </div>
+        </a>
+        <a
+          target="_blank"
           href="https://www.facebook.com/groups/1387601065071155/"
           rel="noreferrer"
         >
@@ -120,20 +135,7 @@ export default function Card() {
           </div>
         </a>
 
-        <a
-          target="_blank"
-          href="https://fridaymagazine.ae/life-culture/people-profiles/dad-diaries-uae-based-fathers-talk-of-parenting-challenges-1.2315507"
-          rel="noreferrer"
-        >
-          <div className="card-item">
-            <div className="icon">
-              <img alt="icon" src={ag_website_icon} />
-            </div>
-            <div className="text">
-              LC Waikiki x Friday Magazine Father's Day Special
-            </div>
-          </div>
-        </a>
+        
       </div>
     </div>
   );
