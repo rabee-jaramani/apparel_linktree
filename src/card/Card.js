@@ -7,6 +7,7 @@ import app_store from '../images/app_store.png';
 import google_play from '../images/google_play.png';
 import food from '../images/food.png';
 import f5 from '../images/f5.png';
+import tree from '../images/tree.svg';
 // import ca_logo from '../images/ca_logo.png';
 import ag_logo from '../images/ag_logo.png';
 export default function Card() {
@@ -117,9 +118,19 @@ export default function Card() {
             <div className="icon">
               <img alt="icon" src={f5} />
             </div>
-            <div className="text">
-            Interview with Sarisha Ved, F5 Founder
+            <div className="text">Interview with Sarisha Ved, F5 Founder</div>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.appareluae.com/wp-content/uploads/2022/08/SustainbilityReport.pdf"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={tree} />
             </div>
+            <div className="text">Apparel Group ESG Report 2021</div>
           </div>
         </a>
         <a
@@ -134,8 +145,6 @@ export default function Card() {
             <div className="text">Pasta Lovers Community Page</div>
           </div>
         </a>
-
-        
       </div>
     </div>
   );
