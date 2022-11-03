@@ -18,7 +18,7 @@ export default function Card() {
         <img alt="icon" src={ag_logo} />
       </div>
       <div className="items-container">
-        <a target="_blank" href="https://www.appareluae.com/" rel="noreferrer">
+        <a target="_blank" href="https://www.apparelgroupglobal.com/" rel="noreferrer">
           <div className="card-item">
             <div className="icon">
               <img alt="icon" src={ag_website_icon} />
