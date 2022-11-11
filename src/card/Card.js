@@ -18,7 +18,7 @@ export default function Card() {
         <img alt="icon" src={ag_logo} />
       </div>
       <div className="items-container">
-        <a target="_blank" href="https://www.apparelgroupglobal.com/" rel="noreferrer">
+        <a target="_blank" href="https://www.apparelgroupglobal.com/en/" rel="noreferrer">
           <div className="card-item">
             <div className="icon">
               <img alt="icon" src={ag_website_icon} />
@@ -163,7 +163,18 @@ export default function Card() {
           </div>
         </a>
 
-        
+        <a
+          target="_blank"
+          href="https://www.eventbrite.com/e/yoga-by-birkenstock-tickets-463455025457"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={yoga} />
+            </div>
+            <div className="text">Yoga with Birkenstock</div>
+          </div>
+        </a>
       </div>
     </div>
   );
