@@ -5,9 +5,10 @@ import linkedin from '../images/linkedin.png';
 import careers from '../images/careers.png';
 import app_store from '../images/app_store.png';
 import google_play from '../images/google_play.png';
-import food from '../images/food.png';
-import f5 from '../images/f5.png';
 import tree from '../images/tree.svg';
+import f5 from '../images/f5.png';
+import yoga from '../images/yoga.png';
+import zumba from '../images/zumba.svg';
 // import ca_logo from '../images/ca_logo.png';
 import ag_logo from '../images/ag_logo.png';
 export default function Card() {
@@ -17,7 +18,11 @@ export default function Card() {
         <img alt="icon" src={ag_logo} />
       </div>
       <div className="items-container">
-        <a target="_blank" href="https://www.appareluae.com/" rel="noreferrer">
+        <a
+          target="_blank"
+          href="https://www.apparelgroupglobal.com/en/"
+          rel="noreferrer"
+        >
           <div className="card-item">
             <div className="icon">
               <img alt="icon" src={ag_website_icon} />
@@ -123,26 +128,78 @@ export default function Card() {
         </a>
         <a
           target="_blank"
-          href="https://www.appareluae.com/wp-content/uploads/2022/08/SustainbilityReport.pdf"
+          href="https://apparelgroupglobal.com/en/wp-content/uploads/2022/10/SustainbilityReport.pdf"
           rel="noreferrer"
         >
           <div className="card-item">
             <div className="icon">
               <img alt="icon" src={tree} />
             </div>
-            <div className="text">Apparel Group ESG Report 2021</div>
+            <div className="text">Apparel Group ESG REPORT 2021</div>
           </div>
         </a>
+
         <a
           target="_blank"
-          href="https://www.facebook.com/groups/1387601065071155/"
+          href="https://www.eventbrite.com/e/zumba-by-athletes-co-at-dubai-hills-mall-tickets-452888972107"
           rel="noreferrer"
         >
           <div className="card-item">
             <div className="icon">
-              <img alt="icon" src={food} />
+              <img alt="icon" src={zumba} />
             </div>
-            <div className="text">Pasta Lovers Community Page</div>
+            <div className="text">DFC Zumba Session</div>
+          </div>
+        </a>
+
+        <a
+          target="_blank"
+          href="https://www.eventbrite.com/e/yoga-by-f5-at-dubai-hills-mall-tickets-453813748137"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={yoga} />
+            </div>
+            <div className="text">DFC Yoga Session</div>
+          </div>
+        </a>
+
+        <a
+          target="_blank"
+          href="https://www.eventbrite.com/e/yoga-by-birkenstock-tickets-463455025457"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={yoga} />
+            </div>
+            <div className="text">Yoga with Birkenstock</div>
+          </div>
+        </a>
+
+        <a
+          target="_blank"
+          href="https://www.eventbrite.com/e/zumba-by-hoka-at-dubai-hills-mall-tickets-466212633537"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={zumba} />
+            </div>
+            <div className="text">Zumba with HOKA</div>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.eventbrite.com/e/yoga-by-havaianas-at-dubai-hills-mall-tickets-466217447937?fbclid=PAAaZK7l4GNunfV_A-nrKaZiJQtoB0v-Q1IjJTsdv93m0z4X23OsGGaT90JCM"
+          rel="noreferrer"
+        >
+          <div className="card-item">
+            <div className="icon">
+              <img alt="icon" src={yoga} />
+            </div>
+            <div className="text">Yoga with Havaianas</div>
           </div>
         </a>
       </div>
