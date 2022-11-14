@@ -141,32 +141,6 @@ export default function Card() {
 
         <a
           target="_blank"
-          href="https://www.eventbrite.com/e/zumba-by-athletes-co-at-dubai-hills-mall-tickets-452888972107"
-          rel="noreferrer"
-        >
-          <div className="card-item">
-            <div className="icon">
-              <img alt="icon" src={zumba} />
-            </div>
-            <div className="text">DFC Zumba Session</div>
-          </div>
-        </a>
-
-        <a
-          target="_blank"
-          href="https://www.eventbrite.com/e/yoga-by-f5-at-dubai-hills-mall-tickets-453813748137"
-          rel="noreferrer"
-        >
-          <div className="card-item">
-            <div className="icon">
-              <img alt="icon" src={yoga} />
-            </div>
-            <div className="text">DFC Yoga Session</div>
-          </div>
-        </a>
-
-        <a
-          target="_blank"
           href="https://www.eventbrite.com/e/yoga-by-birkenstock-tickets-463455025457"
           rel="noreferrer"
         >
